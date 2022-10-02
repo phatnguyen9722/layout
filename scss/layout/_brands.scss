@@ -1,0 +1,15 @@
+
+#brand {
+    position: absolute;
+    top: 27rem;
+    width: 100%;
+    height: auto;
+    .container {
+        .brand-items {
+            width: 100%;
+            height: auto;
+            background-color: #ccc;
+            border: 1px solid #fff;
+        }
+    }
+}

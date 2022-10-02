@@ -1,0 +1,88 @@
+@import '../variables';
+
+#header {
+    position: relative;
+    background-color: $baseColor;
+
+    .container {
+        .top-header {
+            width: 100%;
+            height: 2.25rem;
+            background-color: blue;
+            margin-bottom: 2px;
+        }
+
+        .mid-header {
+            width: 100%;
+            height: auto;
+
+            .logo {
+                width: 7.5rem;
+                height: 4rem;
+                border: 1px solid #000;
+                background-color: #ccc;
+
+                margin-right: $mrHeader;
+            }
+
+            .search-box {
+                width: 30rem;
+                height: 4rem;
+                border: 1px solid #000;
+                background-color: #ccc;
+                margin-right: $mrHeader;
+            }
+
+            .header-item {
+                width: 12rem;
+                height: 4rem;
+                border: 1px solid #000;
+                background-color: #ccc;
+                margin-right: $mrHeader;
+            }
+
+            .header-user {
+                width: 2.5rem;
+                height: 4rem;
+                border: 1px solid #000;
+                background-color: #ccc;
+                margin-right: $mrHeader;
+            }
+
+            .header-cart {
+                width: 7.5rem;
+                height: 4rem;
+                border: 1px solid #000;
+                background-color: #ccc;
+            }
+        }    
+
+        .bot-header {
+            width: 100%;
+            height: auto;
+            margin-bottom: 2px;
+            nav {
+                .nav-list {
+                    text-decoration: none;
+                    
+                    width: 100%;
+                    height: auto;
+
+                    li {
+                        width: 9rem;
+                        height: auto;
+                        border: 1px solid yellow;
+                        padding-right: .5rem;
+                        a {
+                            display: block;
+                            font-size: 14px;
+                            color: white;
+                            background-color: #ccc;
+                        }
+                    }                    
+                }
+            }
+        
+        }
+    }
+}

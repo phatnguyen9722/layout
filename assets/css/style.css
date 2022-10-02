@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 16px;
+}
+
+#header {
+  position: relative;
+  background-color: #0079BC;
+}
+#header .container .top-header {
+  width: 100%;
+  height: 2.25rem;
+  background-color: blue;
+  margin-bottom: 2px;
+}
+#header .container .mid-header {
+  width: 100%;
+  height: auto;
+}
+#header .container .mid-header .logo {
+  width: 7.5rem;
+  height: 4rem;
+  border: 1px solid #000;
+  background-color: #ccc;
+  margin-right: 2px;
+}
+#header .container .mid-header .search-box {
+  width: 30rem;
+  height: 4rem;
+  border: 1px solid #000;
+  background-color: #ccc;
+  margin-right: 2px;
+}
+#header .container .mid-header .header-item {
+  width: 12rem;
+  height: 4rem;
+  border: 1px solid #000;
+  background-color: #ccc;
+  margin-right: 2px;
+}
+#header .container .mid-header .header-user {
+  width: 2.5rem;
+  height: 4rem;
+  border: 1px solid #000;
+  background-color: #ccc;
+  margin-right: 2px;
+}
+#header .container .mid-header .header-cart {
+  width: 7.5rem;
+  height: 4rem;
+  border: 1px solid #000;
+  background-color: #ccc;
+}
+#header .container .bot-header {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2px;
+}
+#header .container .bot-header nav .nav-list {
+  text-decoration: none;
+  width: 100%;
+  height: auto;
+}
+#header .container .bot-header nav .nav-list li {
+  width: 9rem;
+  height: auto;
+  border: 1px solid yellow;
+  padding-right: 0.5rem;
+}
+#header .container .bot-header nav .nav-list li a {
+  display: block;
+  font-size: 14px;
+  color: white;
+  background-color: #ccc;
+}
+
+#banner {
+  position: absolute;
+  top: 7.8rem;
+  width: 100%;
+  height: auto;
+}
+#banner .big-banner {
+  background-color: #ccc;
+  width: 60%;
+  height: 20rem;
+  border: 1px solid #fff;
+}
+#banner .small-banner {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ccc;
+  width: 40%;
+  height: 20rem;
+}
+#banner .small-banner .items {
+  width: 50%;
+  height: auto;
+  border: 1px solid #fff;
+}
+
+#brand {
+  position: absolute;
+  top: 27rem;
+  width: 100%;
+  height: auto;
+}
+#brand .container .brand-items {
+  width: 100%;
+  height: auto;
+  background-color: #ccc;
+  border: 1px solid #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
